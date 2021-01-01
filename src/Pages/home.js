@@ -13,7 +13,6 @@ function Home() {
     let p = useRef(null);
     let watchnow = useRef(null);
     let media_ul = useRef(null);
-    let ellipse_container = useRef(null);
     let ellipse_yellow = useRef(null)
     let circle1 = useRef(null);
     let circle2 = useRef(null);
