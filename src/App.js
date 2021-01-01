@@ -7,7 +7,7 @@ import 'font-awesome/css/font-awesome.min.css';
 function App() {
   return (
     <BrowserRouter>
-        <Route path="/home" component={Home} />
+        <Route path="" component={Home} />
     </BrowserRouter>
 
   );
