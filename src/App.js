@@ -1,7 +1,6 @@
 import './App.css';
-import React, {useRef} from "react";
-import {TweenMax, Power3} from 'gsap'
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import React from "react";
+import { BrowserRouter, Route} from "react-router-dom";
 import Home from './Pages/home'
 import 'font-awesome/css/font-awesome.min.css';
 

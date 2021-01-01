@@ -206,7 +206,7 @@ function Home() {
         </div>
         <div ref={el => {watchnow = el}} className="watchnow">
             <i className="fa fa-play"></i>
-            <a href="#">watch now!</a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">watch now!</a>
         </div>
 
         <div className="media">
@@ -217,7 +217,7 @@ function Home() {
             </ul>
         </div>
 
-        <div ref={el => {ellipse_container = el}} className="ellipse-container">
+        <div className="ellipse-container">
             <div className="ellipse thin"></div>
             <div className="ellipse thick"></div>
             <div ref={el => {ellipse_yellow = el}} className="ellipse yellow"></div>
