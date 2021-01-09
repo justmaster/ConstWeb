@@ -175,7 +175,7 @@ function Home() {
     <div ref={el => {overlay = el}} className="overlay">
         <div ref={el => {overlay_h1 = el}} className="curtaintext">Цех Колбасный</div>
         <span ref={el => {overlay_span = el}} className="curtainspan">Детский Садик</span>
-</div>
+    </div>
 
     <div className="wrapper">
         <div className="nav">
@@ -196,8 +196,9 @@ function Home() {
                     <li>home.</li>
                 </ul>
             </div>
-            <div ref={el => {scrolldown = el}} className="scrolldown">scroll</div>
         </div>
+            <a href="https://github.com/justmaster?tab=repositories"ref={el => {scrolldown = el}} className="scrolldown">justmaster</a>
+
 
         <div ref={el => {text = el}} className="text">
             <div ref={el => {title = el}} className="title">ჩურჩული</div>
@@ -215,21 +216,24 @@ function Home() {
                 <li><i className="fa fa-instagram"></i></li>
             </ul>
         </div>
+        <div className="ellipse_circles">
+            <div className="ellipse-container">
+                <div className="ellipse thin"></div>
+                <div className="ellipse thick"></div>
+                <div ref={el => {ellipse_yellow = el}} className="ellipse yellow"></div>
+            </div>
+            <div ref={el => {circle1 = el}} className="circle1"><span>Mission</span>
+                    <div className="yellow_one"></div>
+                    <div className="white_one"></div>
+            </div>
 
-        <div className="ellipse-container">
-            <div className="ellipse thin"></div>
-            <div className="ellipse thick"></div>
-            <div ref={el => {ellipse_yellow = el}} className="ellipse yellow"></div>
+            <div ref={el => {circle2 = el}} className="circle2"><span>Vision</span>
+                    <div className="yellow_one"></div>
+                    <div className="white_one"></div>
+            </div>
         </div>
 
-        <div ref={el => {circle1 = el}} className="circle1"><span>Mission</span>
-            <div className="yellow_one"></div>
-            <div className="white_one"></div>
-        </div>
-        <div ref={el => {circle2 = el}} className="circle2"><span>Vision</span>
-            <div className="yellow_one"></div>
-            <div className="white_one"></div>
-        </div>
+
     </div>
 </div>
 

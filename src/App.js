@@ -9,7 +9,6 @@ function App() {
     <BrowserRouter>
         <Route path="" component={Home} />
     </BrowserRouter>
-
   );
 }
 
